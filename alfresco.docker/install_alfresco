@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+cd /installers/alfresco;
+wget 'http://dl.alfresco.com/release/community/5.0.d-build-00002/alfresco-community-5.0.d-installer-linux-x64.bin';
+chmod +x *.bin
+./alfresco-community-5.0.d-installer-linux-x64.bin  --optionfile /bin/alfresco-options

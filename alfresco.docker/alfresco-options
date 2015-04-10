@@ -1,0 +1,18 @@
+mode=unattended
+enable-components=javaalfresco,alfrescosharepoint,libreofficecomponent,alfrescosolr4
+disable-components=postgres,alfrescosolr,alfrescogoogledocs
+
+# Install location
+prefix=/opt/alfresco
+
+alfresco_admin_password=admin
+
+# Use JDBC settings for an existing database
+jdbc_url=jdbc:postgresql://postgres/alfresco
+jdbc_driver=org.postgresql.Driver
+jdbc_database=alfresco
+jdbc_username=postgres
+jdbc_password=
+
+# Don't install init scripts
+baseunixservice_install_as_service=0
