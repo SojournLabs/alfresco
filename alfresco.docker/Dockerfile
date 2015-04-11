@@ -6,3 +6,4 @@ RUN apt-get install -y \
     wget
 ADD install_alfresco /bin/install_alfresco
 ADD alfresco-options /bin/alfresco-options
+ADD conversionLimits.properties /bin/conversionLimits.properties
