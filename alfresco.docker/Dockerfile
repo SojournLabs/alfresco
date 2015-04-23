@@ -6,6 +6,7 @@ RUN apt-get install -y \
     cups \
     libxrender1 \
     libxt6 \
+    net-tools \
     procps \
     wget
 ADD install_alfresco /bin/install_alfresco
